@@ -1,0 +1,74 @@
+
+
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 7px;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+
+.btn {
+    font-size: 20px;
+    background-color: #12acc4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border: 4px solid black;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-inline: 15px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.one, .two, .three, .four .five, .six, .btn {
+    margin-inline: px;
+}
+
+.nav-links {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 30px 1150px 20px 20px;
+    justify-content: flex-end;
+}
+
+img{
+    height: 50px;
+    padding: 15px;
+}
+
+
+.fondopr{
+    height: 470px;
+    padding-bottom: 80px;
+    
+}
+
+h1{
+    background-color: #000000;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
