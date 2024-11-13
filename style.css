@@ -1,21 +1,32 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 
 
 
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 #nav {
     background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    padding: 7px;
+    padding: 10px;
+    height: 80px;
 }
 
-a:hover {
-    color: #ffffff;
+.container {
+    width: 100%;
 }
+
+
 
 a {
     text-decoration: none;
@@ -23,6 +34,8 @@ a {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
+    width: 100px;
+    justify-content: center;
 }
 
 
@@ -48,27 +61,196 @@ a {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 30px 1150px 20px 20px;
+    margin: 30px 30px 20px 20px;
     justify-content: flex-end;
 }
 
-img{
-    height: 50px;
-    padding: 15px;
+.logo{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 60px;
 }
 
-
-.fondopr{
-    height: 470px;
-    padding-bottom: 80px;
-    
+.fondopr {
+    width: 100%; /* Que ocupe todo el ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
+
 
 h1{
     background-color: #000000;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 20px;
+    text-indent: 60px;
+    font-size: 18px;
+    
 }
 
 
+.one{
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+
+
+.two{
+    align-items: center;
+}
+
+.three{
+    align-items: center;
+}
+
+.four{
+    align-items: center;
+}
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; /* Color de fondo */
+    border-radius: 100px; /* Bordes redondeados */
+    width: 300px; /* Ancho de la barra de búsqueda */
+    margin-left: 150px;
+    padding: 10px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.search-icon {
+  color: #555; /* Color del icono de búsqueda */
+    margin-right: 10px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+outline: none;
+width: 100%;
+  color: #555; /* Color del texto */
+    font-size: 16px;
+}
+
+.search-bar input::placeholder {
+  color: #aaa; /* Color del texto de marcador */
+}
+
+
+.lupa{
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.cupon {
+    height: 35px;
+    margin-left: 2px;
+}
+
+.cupones {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 30px;
+    margin-bottom: 5px;
+    color: #aaa;
+}
+
+
+.perfil{
+    height: 38px;
+    margin-left: 2px;
+}
+
+.perfiles{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 30px;
+    margin-bottom: 5px;
+    color: #aaa;
+
+}
+
+.ingresar{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #000000; /* Color de fondo */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 20px;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+.icon{
+    margin-left: 15px;
+}
+
+.menu{
+    padding: 30px;
+    display: flex;
+}
+
+.botonmenu{
+    border-radius: 50px;
+    margin-left: 670px;
+    background-color: #d8232a;
+    color: white;
+    padding: 15px;
+    width: 100px;
+
+}
+
+.menuopciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; /* Espacio entre cada elemento */
+    padding: 20px;
+
+
+}
+
+
+
+
+.tipomenu {
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    align-self: center;
+
+}
+
+h2 {
+    color: #000000; /* Rojo de KFC */
+    font-size: 35px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+.mayami{
+    justify-items: center;
+    
+}
+
+h3{
+    margin-left: 5px;
+    margin-top: 30px;
+    
+}
