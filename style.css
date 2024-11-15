@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: solid 1px;
+
+
 
 
 }
@@ -209,10 +210,10 @@ width: 100%;
 .botonmenu{
     border-radius: 50px;
     margin-left: 670px;
-    background-color: #d8232a;
-    color: white;
+    background-color: #ff0000;
+    color: #fffef4;
     padding: 15px;
-    width: 100px;
+    width: 130px;
 
 }
 
@@ -260,29 +261,33 @@ h3{
 .logokfc2{
     height: 50px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 35px;
 
 }
 
+
+
 .fotter{
-    width: 800px;
+    width: 1500px;
     margin-top: 30px;
     margin-left: 20px;
     display: flex;
+    background-color: #f8f7f5;
 }
+
+
+
 
 h4{
     font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 35px;
     width: 250px;
-    
-    
+    margin-top: 30px;
 }
 
 .kfc{
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 35px;
     font-size: 20px;
     width: 50px;
 }
@@ -290,16 +295,115 @@ h4{
 
 .kfc2{
     margin-top: 15px;
-    margin-left: 30px;
+    margin-left: 35px;
     font-size: 20px;
     width: 50px;
 }
 
 
 .kfc3{
-    display: flex;
     width: 240px;
     margin-left: 30px;
     font-size: 15px;
     margin-top: 10px;
+    padding: 8px;
 }
+
+
+
+.kfc5{
+    margin-top: 114px;
+    width: 100px;
+}
+
+.kfcparrafo{
+    width: 220px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+.quienessomos{
+    width: 150px;
+    margin-top: 114px;
+}
+
+.nosotros{
+margin-left: 30px;
+margin-top: 15px;
+width: 80px;
+}
+
+.politica{
+    width: 100px;
+    margin-top: 114px;
+    margin-left: 25px;
+}
+
+.terminos{
+    width: 200px;    
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.contenedor{
+    width: 650px;
+}
+
+.descarga{
+    margin-left: 270px;
+    margin-top: 114px;
+}
+
+
+.imagenesgoogle{
+    display: flex;
+}
+
+.appstore{
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.google{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 610px;
+}
+
+
+.logosapp{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.face{
+    height: 25px;
+
+}
+
+.twiter{
+    height: 25px;
+    margin-right: 80px;
+}
+
+.insta{
+    height: 25px;
+    margin-right: 160px;
+}
+
+.final{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.final2{
+    margin-left: 850px;
+}
+
+
+
